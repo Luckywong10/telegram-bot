@@ -1,90 +1,15 @@
-..
-    Make sure to apply any changes to this file to README_RAW.rst as well!
-
-.. image:: https://raw.githubusercontent.com/python-telegram-bot/logos/master/logo-text/png/ptb-logo-text_768.png
-   :align: center
-   :target: https://python-telegram-bot.org
-   :alt: python-telegram-bot Logo
-
-.. image:: https://img.shields.io/pypi/v/python-telegram-bot.svg
-   :target: https://pypi.org/project/python-telegram-bot/
-   :alt: PyPi Package Version
-
-.. image:: https://img.shields.io/pypi/pyversions/python-telegram-bot.svg
-   :target: https://pypi.org/project/python-telegram-bot/
-   :alt: Supported Python versions
-
-.. image:: https://img.shields.io/badge/Bot%20API-6.6-blue?logo=telegram
-   :target: https://core.telegram.org/bots/api-changelog
-   :alt: Supported Bot API versions
-
-.. image:: https://img.shields.io/pypi/dm/python-telegram-bot
-   :target: https://pypistats.org/packages/python-telegram-bot
-   :alt: PyPi Package Monthly Download
-
-.. image:: https://readthedocs.org/projects/python-telegram-bot/badge/?version=stable
-   :target: https://docs.python-telegram-bot.org/en/stable/
-   :alt: Documentation Status
-
-.. image:: https://img.shields.io/pypi/l/python-telegram-bot.svg
-   :target: https://www.gnu.org/licenses/lgpl-3.0.html
-   :alt: LGPLv3 License
-
-.. image:: https://github.com/python-telegram-bot/python-telegram-bot/workflows/GitHub%20Actions/badge.svg
-   :target: https://github.com/python-telegram-bot/python-telegram-bot/
-   :alt: Github Actions workflow
-
-.. image:: https://codecov.io/gh/python-telegram-bot/python-telegram-bot/branch/master/graph/badge.svg
-   :target: https://app.codecov.io/gh/python-telegram-bot/python-telegram-bot
-   :alt: Code coverage
-
-.. image:: https://isitmaintained.com/badge/resolution/python-telegram-bot/python-telegram-bot.svg
-   :target: https://isitmaintained.com/project/python-telegram-bot/python-telegram-bot
-   :alt: Median time to resolve an issue
-
-.. image:: https://api.codacy.com/project/badge/Grade/99d901eaa09b44b4819aec05c330c968
-   :target: https://app.codacy.com/gh/python-telegram-bot/python-telegram-bot/dashboard
-   :alt: Code quality: Codacy
-
-.. image:: https://deepsource.io/gh/python-telegram-bot/python-telegram-bot.svg/?label=active+issues
-   :target: https://deepsource.io/gh/python-telegram-bot/python-telegram-bot/?ref=repository-badge
-   :alt: Code quality: DeepSource
-
-.. image:: https://results.pre-commit.ci/badge/github/python-telegram-bot/python-telegram-bot/master.svg
-   :target: https://results.pre-commit.ci/latest/github/python-telegram-bot/python-telegram-bot/master
-   :alt: pre-commit.ci status
-
-.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
-   :target: https://github.com/psf/black
-   :alt: Code Style: Black
-
-.. image:: https://img.shields.io/badge/Telegram-Channel-blue.svg?logo=telegram
-   :target: https://t.me/pythontelegrambotchannel
-   :alt: Telegram Channel
-
-.. image:: https://img.shields.io/badge/Telegram-Group-blue.svg?logo=telegram
-   :target: https://telegram.me/pythontelegrambotgroup
-   :alt: Telegram Group
-
-We have made you a wrapper you can't refuse
-
-We have a vibrant community of developers helping each other in our `Telegram group <https://telegram.me/pythontelegrambotgroup>`_. Join us!
-
-*Stay tuned for library updates and new releases on our* `Telegram Channel <https://telegram.me/pythontelegrambotchannel>`_.
-
-Introduction
+介绍
 ============
 
-This library provides a pure Python, asynchronous interface for the
-`Telegram Bot API <https://core.telegram.org/bots/api>`_.
-It's compatible with Python versions **3.7+**.
+类的纯Python异步接口
+' Telegram Bot API &lt;https://core.telegram.org/bots/api&gt; ' _。
+它兼容Python版本**3.7+**。
 
-In addition to the pure API implementation, this library features a number of high-level classes to
-make the development of bots easy and straightforward. These classes are contained in the
-``telegram.ext`` submodule.
+除了纯API实现之外，这个库还提供了许多高级类
+使机器人的开发变得简单和直接。类中包含这些类
+“电报。ext的子模块。
 
-A pure API implementation *without* ``telegram.ext`` is available as the standalone package ``python-telegram-bot-raw``.  `See here for details. <https://github.com/python-telegram-bot/python-telegram-bot/blob/master/README_RAW.rst>`_
-
+一个纯API实现*没有* ' '电报。Ext ' '可作为独立包' ' python-telegram-bot-raw ' '获得。详情请看这里。_ & lt; https://github.com/python-telegram-bot/python-telegram-bot/blob/master/README_RAW.rst&gt”
 Note
 ----
 
