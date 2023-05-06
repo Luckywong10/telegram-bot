@@ -1,28 +1,8 @@
-介绍
-============
+## 介绍
+纯Python异步接口Telegram Bot API，兼容Python版本**3.7+**，可作为独立包。
+支持Telegram Bot API **6.6**的所有类型和方法。
 
-类的纯Python异步接口
-' Telegram Bot API &lt;https://core.telegram.org/bots/api&gt; ' _。
-它兼容Python版本**3.7+**。
-
-除了纯API实现之外，这个库还提供了许多高级类
-使机器人的开发变得简单和直接。类中包含这些类
-“电报。ext的子模块。
-
-一个纯API实现*没有* ' '电报。Ext ' '可作为独立包' ' python-telegram-bot-raw ' '获得。详情请看这里。_ & lt; https://github.com/python-telegram-bot/python-telegram-bot/blob/master/README_RAW.rst&gt”
-Note
-----
-
-Installing both ``python-telegram-bot`` and ``python-telegram-bot-raw`` in conjunction will result in undesired side-effects, so only install *one* of both.
-
-Telegram API support
-====================
-
-All types and methods of the Telegram Bot API **6.6** are supported.
-
-Installing
-==========
-
+## 安装
 You can install or upgrade ``python-telegram-bot`` via
 
 .. code:: shell
@@ -39,9 +19,7 @@ You can also install ``python-telegram-bot`` from source, though this is usually
     $ cd python-telegram-bot
     $ python setup.py install
 
-Verifying Releases
-------------------
-
+## 版本验证
 We sign all the releases with a GPG key.
 The signatures are uploaded to both the `GitHub releases page <https://github.com/python-telegram-bot/python-telegram-bot/releases>`_ and the `PyPI project <https://pypi.org/project/python-telegram-bot/>`_ and end with a suffix ``.asc``.
 Please find the public keys `here <https://github.com/python-telegram-bot/python-telegram-bot/tree/master/public_keys>`_.
@@ -51,8 +29,7 @@ In addition, the GitHub release page also contains the sha1 hashes of the releas
 
 This allows you to verify that a release file that you downloaded was indeed provided by the ``python-telegram-bot`` team.
 
-Dependencies & Their Versions
------------------------------
+## Dependencies & Their Versions
 
 ``python-telegram-bot`` tries to use as few 3rd party dependencies as possible.
 However, for some features using a 3rd party library is more sane than implementing the functionality again.
@@ -68,9 +45,7 @@ To minimize dependency conflicts, we try to be liberal in terms of version requi
 On the other hand, we have to ensure stability of ``python-telegram-bot``, which is why we do apply version bounds.
 If you encounter dependency conflicts due to these bounds, feel free to reach out.
 
-Optional Dependencies
-#####################
-
+## Optional Dependencies
 PTB can be installed with optional dependencies:
 
 * ``pip install python-telegram-bot[passport]`` installs the `cryptography>=39.0.1 <https://cryptography.io/en/stable>`_ library. Use this, if you want to use Telegram Passport related functionality.
